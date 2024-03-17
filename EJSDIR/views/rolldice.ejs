@@ -1,0 +1,12 @@
+<%- include("include/head.ejs") %>
+ <link rel="stylesheet" href="/style.css"> 
+<body>
+    <h1>Dice gave value : <%= diceVal %></h1>
+    <% if(diceVal == 6){ %>
+        <h1>  Nice! Dice again... </h1>
+     <% } %>
+
+     <%- include("include/footer.ejs") %>
+
+</body>
+</html>
